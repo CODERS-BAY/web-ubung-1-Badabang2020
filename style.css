@@ -1,0 +1,79 @@
+header h1 {
+  text-align: center;
+  border: 0.25rem solid #21df1a;
+  border-radius: 5rem;
+  padding: 1.5rem 1.5rem;
+  width: 50rem;
+  box-shadow: 1rem 1rem 1rem #263238;
+}
+
+nav {
+  background-color: #263238;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+}
+
+nav a.aktuell {
+  font-weight: bold;
+}
+
+main {
+  max-width: 65rem;
+  margin: auto;
+  display: flex;
+}
+
+main p {
+  line-height: 1.5rem;
+}
+
+article {
+  width: 50%;
+  margin: 0 2rem;
+}
+
+footer {
+  background-color: #263238;
+  color: #ffffff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 25%;
+}
+.listOfLinks {
+  text-align: center;
+  font-size: 2rem;
+}
+.listOfLinks ul {
+  list-style: none;
+}
+
+.listOfLinks a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    display: block;
+  }
+
+  article {
+    width: auto;
+  }
+}
